@@ -5,3 +5,4 @@ RUN pip3 install spidev
 RUN pip3 install pillow
 RUN pip3 install RPi.GPIO
 RUN git clone https://github.com/waveshare/e-Paper
+WORKDIR /e-Paper/RaspberryPi_JetsonNano/python/
